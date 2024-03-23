@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.product {
+    width: calc(50% - 20px);
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+.product img {
+    width: 75%;
+    height: 75%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.product p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 60px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    border: 2px solid #33A58E ;
+    background-color: #ffffff;
+    color: #33A58E;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #9ec8f0;
+}

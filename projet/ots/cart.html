@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Order Management</title>
+<link rel="stylesheet" href="ordermanagement.css">
+</head>
+<body>
+<div class="container">
+    <h1>Your Shopping cart</h1>
+    <table id="cart-table">
+        <thead>
+            <tr>
+                <th> Product</th>
+                <th>Qty</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Morphine sulfate orale 30ml</td>
+                <td>1</td>
+                <td>60$</td>
+            </tr>
+            <tr>
+                <td>Steel wheelchair</td>
+                <td>2</td>
+                <td>140$</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 id="total">Total : 200$</h2>
+    <ul id="shopping-cart-actions">
+        <li>
+            <input type="button" name="delete" id="empty-cart" class="btn" value="Empty Cart" />
+        </li>
+        <li>
+            <a href="shoppingcart.html" class="btn">Continue Shopping</a>
+        </li>
+        <li>
+            <a href="checkout.html" class="btn">Go To Checkout</a>
+        </li>
+    </ul>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

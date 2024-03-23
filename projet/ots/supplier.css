@@ -1,0 +1,127 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.seller-profile {
+    width: calc(50% - 20px);
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.seller-profile img {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    border-radius: 50%; /* Make the profile picture round */
+    margin-bottom: 10px;
+}
+
+.seller-profile h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.seller-profile p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.rating {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.star {
+    cursor: pointer;
+    color: #000000; /* Black color */
+}
+
+.star:hover,
+.star.active {
+    color: #ffd700; /* Yellow color */
+}
+
+textarea {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+#submit-feedback {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 2px solid #33A58E ;
+    background-color: #ffffff;
+    color: #33A58E;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#submit-feedback:hover {
+    background-color: #9ec8f0;
+}
+
+/* ... */
+
+#comments-container {
+    display: none; /* Hide comments container by default */
+}
+
+.comment {
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    overflow: hidden;
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+
+.comment img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.comment-content {
+    margin-left: 55px;
+}
+
+.comment h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.comment p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.comment .rating {
+    color: #f39c12;
+}
